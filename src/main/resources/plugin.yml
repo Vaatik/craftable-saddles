@@ -1,0 +1,4 @@
+name: CraftableSaddles
+version: 1.0.0
+main: io.github.vaatik.craftablesaddles.CraftableSaddles
+api-version: '1.19'
