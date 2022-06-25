@@ -1,5 +1,5 @@
 # CraftableSaddles v1.0.0
-### Craftable Saddles is a non-commercial use Bukkit plugin that allows people to craft saddles using a crafting table.r whenever they lay eggs.
+### Craftable Saddles is a non-commercial use Bukkit plugin that allows people to craft saddles using a crafting table
 
 Take a look at the CHANGELOG.md for other updates
 
