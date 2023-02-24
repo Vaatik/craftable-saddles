@@ -1,3 +1,7 @@
 # enabled
 # enables or disables the plugin
 enabled: true
+
+# nametagEnabled
+# enables or disables the craft for nametags
+nametagEnabled: true

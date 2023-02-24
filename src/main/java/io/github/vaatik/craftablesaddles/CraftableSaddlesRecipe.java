@@ -30,5 +30,19 @@ public class CraftableSaddlesRecipe {
             recipe.setIngredient('I', Material.IRON_INGOT);
             Bukkit.addRecipe(recipe);
         }
+
+        if(CraftableSaddlesRecipe.configuration.getBoolean("nametagEnabled")) {
+            ItemStack nametag = new ItemStack(Material.NAME_TAG);
+            ItemMeta meta = nametag.getItemMeta();
+
+            nametag.setItemMeta(meta);
+            NamespacedKey key = new NamespacedKey(plugin, "nametag");
+            ShapedRecipe recipe = new ShapedRecipe(key, nametag);
+
+            recipe.shape(" S ", " P ", "   ");
+            recipe.setIngredient('S', Material.STRING);
+            recipe.setIngredient('P', Material.PAPER);
+            Bukkit.addRecipe(recipe);
+        }
     }
 }
