@@ -6,12 +6,12 @@ public class CraftableSaddles extends JavaPlugin {
     @Override
     public void onEnable() {
         this.saveDefaultConfig();
-        getLogger().info("CraftableSaddles 1.0.0 for Minecraft Spigot 1.19 enabled");
+        getLogger().info("CraftableSaddles 1.1.1 for Minecraft Spigot 1.20 enabled");
         CraftableSaddlesRecipe saddleRecipe = new CraftableSaddlesRecipe(this);
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("CraftableSaddles 1.0.0 for Minecraft Spigot 1.19 disabled");
+        getLogger().info("CraftableSaddles 1.1.1 for Minecraft Spigot 1.20 disabled");
     }
 }
